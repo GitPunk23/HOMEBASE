@@ -1,9 +1,10 @@
-docker stop homebase
+#Check for updates to HOMEBASE repo
+git pull
 
+#If Homebase is running, stop it and prune the system
+docker stop homebase
 docker system prune -f
 
-#docker pull [DockerHub Username]/[DockerHub Repo]:[Tag] - Add this when webhook is configured
-
-docker build -t homebase ./HOMEBASE/ # Build Dockerfile for HOMEBASE
-
-docker run -d --name HOMEBASE --rm -p 80:80 homebase #[DockerHub Username]/[DockerHub Repo]:[Tag] - Add this when webhook is configured
+#Build and Run homebase from Dockerfile
+docker build -t homebase /home/brett/HOMEBASE # Build Dockerfile for HOMEBASE
+docker run -d --name HOMEBASE --rm -p 80:80 homebase # Run HOMEBASE image
