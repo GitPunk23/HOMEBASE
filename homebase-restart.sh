@@ -2,7 +2,7 @@
 git pull
 
 #If Homebase is running, stop it and prune the system
-docker stop homebase
+docker stop HOMEBASE
 docker system prune -f
 
 #Build and Run homebase from Dockerfile
