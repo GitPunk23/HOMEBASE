@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    padding: 75px;
+    font-family: "Oswald", sans-serif;
+    color: white;
+}
+
+h1 {
+    font-weight: 350;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 50px;
+    width: 50%;
+    padding-top: 10px;
+}
+
+/* Navigation Bar */
+* {
+	-webkit-transition-property: all;
+	-webkit-transition-duration: .2s;
+    -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+	-moz-transition-property: all;
+    -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+}
+
+.topnav {
+    font-weight: 200;
+    font-size: 2em;
+    text-transform: uppercase;
+    line-height: 1em;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.btn {
+    color:#999;
+    background:rgba(0, 0, 0, 0.5);
+    padding:10px 20px;
+    font-size:12px;
+    text-decoration:none;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+  
+.btn:hover {
+    border:none;
+    background:rgba(0, 0, 0, 0.4);
+    background:#fff;
+    padding:20px 20px;
+    color:#1b1b1b;
+}
+
+/* Welcome Heading */
+#welcome {
+    font-weight: 900;
+    font-size: 80px;
+    text-transform: uppercase;
+    line-height: 72px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding-top: 25px;
+}
+
+/* Homepage Image */
+#homeimg {
+    max-height: 500px;
+    width: auto;
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
