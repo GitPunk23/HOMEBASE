@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  homebase:
+    image: httpd:latest
+    container_name: homebase
+    ports:
+      - "8080:80"
+    volumes:
+      - /home/homebase/HOMEBASE/website/html:/usr/local/apache2/htdocs
