@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>ADMIN</title>
+</head>
+<body>
+
+<!-- Button to open Pi-hole in a new tab -->
+<button onclick="openService('http://raspberrycobbler/admin')">Open Pi-hole</button>
+
+<!-- Button to open Home Assistant in a new tab -->
+<button onclick="openService('http://raspberrycobbler:8123')">Open Home Assistant</button>
+
+<!-- Button to open Portainer in a new tab -->
+<button onclick="openService('http://raspberrycobbler:9000')">Open Portainer</button>
+
+<script>
+    function openService(url) {
+        // Open the specified URL in a new tab
+        window.open(url, '_blank');
+    }
+</script>
+
+</body>
+</html>
