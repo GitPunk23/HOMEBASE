@@ -2,7 +2,7 @@ version: '3'
 
 services:
   homebase:
-    image: httpd:latest
+    build: .
     container_name: homebase
     ports:
       - "8080:80"
