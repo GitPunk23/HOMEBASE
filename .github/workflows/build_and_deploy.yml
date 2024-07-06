@@ -13,5 +13,8 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
       
+      - name: Set script executable
+        run: sudo chmod +x ./CICD/deploy.sh
+
       - name: Execute Deployment Script
-        run: /CICD/deploy.sh
+        run: sudo ./CICD/deploy.sh
