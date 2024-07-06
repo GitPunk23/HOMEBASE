@@ -14,4 +14,4 @@ jobs:
         uses: actions/checkout@v2
       
       - name: Execute Deployment Script
-        run: ./CICD/deploy.sh
+        run: sudo ./CICD/deploy.sh
