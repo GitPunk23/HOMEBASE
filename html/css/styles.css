@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    background-color: #121212;  /* Dark background for a more modern look */
+    padding: 0;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #1E88E5;  /* Blue header for contrast */
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+    flex-grow: 1;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 0; /* Remove padding */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 2rem;
+}
+
+/* Weather Widget */
+.weatherwidget-io {
+    display: block;
+    margin-bottom: 1rem; /* Added margin-bottom for spacing */
+    max-width: 100%; /* Make the widget span the entire width */
+    margin-left: 0; /* Align to left */
+    margin-right: 0; /* Align to right */
+    margin-top: 0.25rem; /* Adjust margin to add less space */
+}
+
+/* Welcome Heading */
+header h1 {
+    font-weight: 1000;
+    font-size: 38px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    margin: 0;
+    text-align: center;
+}
+
+/* Button Styles */
+button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 10px auto;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+

@@ -1,10 +1,11 @@
 #!/bin/bash
+touch ./hi
 
 # Stop the existing Apache container
-docker-compose down
+#docker-compose down
 
 # Pull the latest changes from GitHub
-git pull origin main
+#git pull origin main
 
 # Start the Apache container
-docker-compose up -d
+#docker-compose up -d
