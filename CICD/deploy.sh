@@ -1,5 +1,5 @@
 #!/bin/bash
-touch ./hi
+sudo touch ./hi
 
 # Stop the existing Apache container
 #docker-compose down
